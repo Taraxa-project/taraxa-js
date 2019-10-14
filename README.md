@@ -9,8 +9,9 @@ npm install jstaraxa
 ## usage
 ``` js
 const jstaraxa = require("jstaraxa")
-var r = jstaraxa.eth.blockNumber()
-console.log(r)
+
+jstaraxa.eth.blockNumber().then(console.log)
+
 ```
 
 ## methods
