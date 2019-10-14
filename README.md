@@ -7,12 +7,39 @@ npm address [jstaraxa](https://www.npmjs.com/package/jstaraxa)
 npm install jstaraxa
 
 ## usage
+default parameters
+``` js
+config={
+    ip:"0.0.0.0",
+    port:7777,
+    jsonrpc:"2.0",
+    id:1
+}
+```
+example
 ``` js
 const jstaraxa = require("jstaraxa")
 
 jstaraxa.eth.blockNumber().then(console.log)
 
 ```
+set config
+``` js
+const jstaraxa = require("jstaraxa")
+jstaraxa.set({ip:"35.224.183.106",port:7777})
+
+import {eth,taraxa,net}  from "jstaraxa"
+eth.set({ip:"35.224.183.106",port:7777})
+taraxa.set({ip:"35.224.183.106",port:7777})
+net.set({ip:"35.224.183.106",port:7777})
+
+jstaraxa.reset()
+eth.reset()
+taraxa.reset()
+net.reset()
+
+```
+once call above any set, the whole package config will be influenced untill you reset it again.
 
 ## methods
 - eth
