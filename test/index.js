@@ -1,3 +1,3 @@
-const eth = require('./eth')
+const jstaraxa = require('../lib')
 
-eth.test()
+jstaraxa.eth.blockNumber()
