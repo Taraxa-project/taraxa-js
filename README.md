@@ -1,9 +1,14 @@
 # jstaraxa
 Taraxa RPC javascript client
 
-[jstaraxa](https://www.npmjs.com/package/jstaraxa)
+npm address [jstaraxa](https://www.npmjs.com/package/jstaraxa)
 
 ## install
 npm install jstaraxa
 
 ## usage
+``` js
+const jstaraxa = require("jstaraxa")
+var r = jstaraxa.eth.blockNumber()
+console.log(r)
+```
