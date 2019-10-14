@@ -17,7 +17,6 @@ console.log(r)
 - eth
 ``` js
 eth.syncing()
-eth.syncing()
 
 eth.coinbase()
 
@@ -101,15 +100,21 @@ eth.getProof(address, storage_keys, tag)
 - taraxa
 ``` js
 taraxa.getDagBlockByHash(hash, fullTransactions)
+
 taraxa.getDagBlockByLevel(tag, fullTransactions)
+
 taraxa.dagBlockLevel()
+
 taraxa.dagBlockPeriod()
+
 taraxa.dagBlockPeriod()
 ```
 
 - net
 ``` js
 net.version()
+
 net.peerCount()
+
 net.listening()
 ```
