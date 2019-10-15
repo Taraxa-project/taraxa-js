@@ -135,7 +135,7 @@ taraxa.dagBlockLevel()
 
 taraxa.dagBlockPeriod()
 
-taraxa.dagBlockPeriod()
+taraxa.blockNumber()
 ```
 
 - net
