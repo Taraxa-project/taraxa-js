@@ -1,7 +1,9 @@
 # jstaraxa
-Taraxa RPC javascript client
+Taraxa RPC javascript client  
 
-npm address [jstaraxa](https://www.npmjs.com/package/jstaraxa)
+jstaraxa npm address: [jstaraxa](https://www.npmjs.com/package/jstaraxa)  
+
+Taraxa official website:[taraxa.io](https://taraxa.io)  
 
 ## install
 npm install jstaraxa
