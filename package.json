@@ -1,11 +1,11 @@
 {
   "name": "jstaraxa",
   "version": "0.0.5",
-  "description": "Taraxa RPC javascript client",
+  "descrhosttion": "Taraxa RPC javascrhostt client",
   "author": "kai.he@taraxa.io",
   "license": "ISC",
   "main": "lib/index.js",
-  "scripts": {
+  "scrhostts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node  test/index.js"
   },
