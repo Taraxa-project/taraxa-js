@@ -12,7 +12,7 @@ npm install jstaraxa
 default parameters
 ``` js
 config={
-    host:"0.0.0.0",
+    ip:"0.0.0.0",
     port:7777,
     jsonrpc:"2.0",
     id:1
@@ -28,12 +28,12 @@ jstaraxa.eth.blockNumber().then(console.log)
 set config
 ``` js
 const jstaraxa = require("jstaraxa")
-jstaraxa.set({host:"35.224.183.106",port:7777})
+jstaraxa.set({ip:"35.224.183.106",port:7777})
 
 import {eth,taraxa,net}  from "jstaraxa"
-eth.set({host:"35.224.183.106",port:7777})
-taraxa.set({host:"35.224.183.106",port:7777})
-net.set({host:"35.224.183.106",port:7777})
+eth.set({ip:"35.224.183.106",port:7777})
+taraxa.set({ip:"35.224.183.106",port:7777})
+net.set({ip:"35.224.183.106",port:7777})
 
 jstaraxa.reset()
 eth.reset()
