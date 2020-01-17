@@ -1,7 +1,7 @@
 const eth = require('../lib/eth')
 
 let test = () => {
-    eth.set({ ip: "64.225.42.78" })
+    eth.set({ host: "http://64.225.42.78:7777" })
     eth.getBlockByHash('0xc4714d5d3ac4b87602da4c46e301e491202035f81a1a4260a6988f8ef17ebb6b').then(console.log)
     //eth.blockNumber().then(console.log)
     //eth.getBalance('0x7dbd9065d38ffbbb27c884baeffca113eda3cb50').then(console.log)
