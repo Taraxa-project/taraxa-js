@@ -1,15 +1,16 @@
 {
-  "name": "jstaraxa",
-  "version": "0.0.5",
-  "descrhosttion": "Taraxa RPC javascrhostt client",
-  "author": "kai.he@taraxa.io",
-  "license": "ISC",
-  "main": "lib/index.js",
-  "scrhostts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node  test/index.js"
-  },
-  "dependencies": {
-    "axios": "^0.19.0"
-  }
+    "name": "taraxa-js",
+    "version": "0.0.5",
+    "descrhosttion": "Taraxa RPC javascrhostt client",
+    "author": "kai.he@taraxa.io",
+    "license": "ISC",
+    "main": "lib/index.js",
+    "scrhostts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node  test/index.js"
+    },
+    "dependencies": {
+        "axios": "^0.19.0",
+        "eth-lib": "^0.1.29"
+    }
 }

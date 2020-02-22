@@ -1,12 +1,12 @@
-# jstaraxa
+# taraxa-js
 Taraxa RPC javascrhostt client  
 
-jstaraxa npm address: [jstaraxa](https://www.npmjs.com/package/jstaraxa)  
+taraxa-js npm address: [taraxa-js](https://www.npmjs.com/package/taraxa-js)  
 
 Taraxa official website:[taraxa.io](https://taraxa.io)  
 
 ## install
-npm install jstaraxa
+npm install taraxa-js
 
 ## usage
 default parameters
@@ -20,22 +20,22 @@ config={
 ```
 example
 ``` js
-const jstaraxa = require("jstaraxa")
+const taraxa-js = require("taraxa-js")
 
-jstaraxa.eth.blockNumber().then(console.log)
+taraxa-js.eth.blockNumber().then(console.log)
 
 ```
 set config
 ``` js
-const jstaraxa = require("jstaraxa")
-jstaraxa.set({ip:"35.224.183.106",port:7777})
+const taraxa-js = require("taraxa-js")
+taraxa-js.set({ip:"35.224.183.106",port:7777})
 
-import {eth,taraxa,net}  from "jstaraxa"
+import {eth,taraxa,net}  from "taraxa-js"
 eth.set({ip:"35.224.183.106",port:7777})
 taraxa.set({ip:"35.224.183.106",port:7777})
 net.set({ip:"35.224.183.106",port:7777})
 
-jstaraxa.reset()
+taraxa-js.reset()
 eth.reset()
 taraxa.reset()
 net.reset()
