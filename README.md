@@ -20,22 +20,22 @@ config={
 ```
 example
 ``` js
-const taraxa-js = require("taraxa-js")
+const taraxa = require("taraxa-js")
 
-taraxa-js.eth.blockNumber().then(console.log)
+taraxa.eth.blockNumber().then(console.log)
 
 ```
 set config
 ``` js
-const taraxa-js = require("taraxa-js")
-taraxa-js.set({ip:"35.224.183.106",port:7777})
+const taraxa = require("taraxa-js")
+taraxa.set({ip:"35.224.183.106",port:7777})
 
 import {eth,taraxa,net}  from "taraxa-js"
 eth.set({ip:"35.224.183.106",port:7777})
 taraxa.set({ip:"35.224.183.106",port:7777})
 net.set({ip:"35.224.183.106",port:7777})
 
-taraxa-js.reset()
+taraxa.reset()
 eth.reset()
 taraxa.reset()
 net.reset()
