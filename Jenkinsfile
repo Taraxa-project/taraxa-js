@@ -15,7 +15,7 @@ pipeline {
             steps {
                 sh "npm install -g npm-cli-login"
                 withCredentials([usernamePassword(credentialsId: 'npmjs_login_credentials', usernameVariable: 'NPM_USERNAME', passwordVariable: 'NPM_PASSWORD')]) {
-                    sh 'NPM_USER=$NPM_USER NPM_PASS=$NPM_PASSWORD NPM_EMAIL=justin.snapp@taraxa.io npm-cli-login'
+                    sh 'NPM_USER=$NPM_USERNAME NPM_PASS=$NPM_PASSWORD NPM_EMAIL=justin.snapp@taraxa.io npm-cli-login'
                 }
                 sh "npm publish"
             }
