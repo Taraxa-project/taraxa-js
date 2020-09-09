@@ -3,10 +3,12 @@ Taraxa RPC javascript client
 
 taraxa-js npm address: [taraxa-js](https://www.npmjs.com/package/taraxa-js)  
 
-Taraxa official website:[taraxa.io](https://taraxa.io)  
+Taraxa official website: [taraxa.io](https://taraxa.io)  
 
 ## install
+```
 npm install taraxa-js
+```
 
 ## usage
 default parameters
@@ -50,10 +52,6 @@ eth.syncing()
 
 eth.coinbase()
 
-eth.mining()
-
-eth.hashrate()
-
 eth.gasPrice()
 
 eth.accounts()
@@ -75,8 +73,6 @@ eth.getUncleCountByBlockHash(hash)
 eth.getUncleCountByBlockNumber(tag)
 
 eth.getCode(address, tag)
-
-eth.sign(address, data, tag)
 
 eth.sendTransaction(trx)
 
