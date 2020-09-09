@@ -1,12 +1,14 @@
 # taraxa-js
-Taraxa RPC javascrhostt client  
+Taraxa RPC javascript client  
 
 taraxa-js npm address: [taraxa-js](https://www.npmjs.com/package/taraxa-js)  
 
-Taraxa official website:[taraxa.io](https://taraxa.io)  
+Taraxa official website: [taraxa.io](https://taraxa.io)  
 
 ## install
+```
 npm install taraxa-js
+```
 
 ## usage
 default parameters
@@ -41,7 +43,7 @@ taraxa.reset()
 net.reset()
 
 ```
-once call above any set, the whole package config will be influenced untill you reset it again.
+once call above any set, the whole package config will be influenced until you reset it again.
 
 ## methods
 - eth
@@ -49,10 +51,6 @@ once call above any set, the whole package config will be influenced untill you 
 eth.syncing()
 
 eth.coinbase()
-
-eth.mining()
-
-eth.hashrate()
 
 eth.gasPrice()
 
@@ -75,8 +73,6 @@ eth.getUncleCountByBlockHash(hash)
 eth.getUncleCountByBlockNumber(tag)
 
 eth.getCode(address, tag)
-
-eth.sign(address, data, tag)
 
 eth.sendTransaction(trx)
 
@@ -117,14 +113,6 @@ eth.getFilterChanges(id)
 eth.getFilterLogs(id)
 
 eth.getLogs(filter)
-
-eth.getWork()
-
-eth.submitWork(nonce, header_power_hash, mix_digest)
-
-eth.submitHashrate(hash_rate, id)
-
-eth.getProof(address, storage_keys, tag)
 ```
 
 - taraxa
@@ -133,11 +121,15 @@ taraxa.getDagBlockByHash(hash, fullTransactions)
 
 taraxa.getDagBlockByLevel(tag, fullTransactions)
 
+taraxa.getScheduleBlockByPeriod(period)
+
 taraxa.dagBlockLevel()
 
 taraxa.dagBlockPeriod()
 
 taraxa.blockNumber()
+
+taraxa.protocolVersion()
 ```
 
 - net
