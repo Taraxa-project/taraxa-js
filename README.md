@@ -1,5 +1,5 @@
 # taraxa-js
-Taraxa RPC javascrhostt client  
+Taraxa RPC javascript client  
 
 taraxa-js npm address: [taraxa-js](https://www.npmjs.com/package/taraxa-js)  
 
@@ -41,7 +41,7 @@ taraxa.reset()
 net.reset()
 
 ```
-once call above any set, the whole package config will be influenced untill you reset it again.
+once call above any set, the whole package config will be influenced until you reset it again.
 
 ## methods
 - eth
@@ -117,14 +117,6 @@ eth.getFilterChanges(id)
 eth.getFilterLogs(id)
 
 eth.getLogs(filter)
-
-eth.getWork()
-
-eth.submitWork(nonce, header_power_hash, mix_digest)
-
-eth.submitHashrate(hash_rate, id)
-
-eth.getProof(address, storage_keys, tag)
 ```
 
 - taraxa
@@ -133,11 +125,15 @@ taraxa.getDagBlockByHash(hash, fullTransactions)
 
 taraxa.getDagBlockByLevel(tag, fullTransactions)
 
+taraxa.getScheduleBlockByPeriod(period)
+
 taraxa.dagBlockLevel()
 
 taraxa.dagBlockPeriod()
 
 taraxa.blockNumber()
+
+taraxa.protocolVersion()
 ```
 
 - net
